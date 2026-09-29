@@ -1,0 +1,53 @@
+/* 태그 선택자 */
+body {
+  background-color: rgb(253, 253, 223);
+}
+h1 {
+  color: rgb(52, 116, 116);
+  font-size: 24px;
+  background-color: rgb(202, 251, 152);
+}
+p {
+  color: blue;
+}
+/* 클래스 선택자 */
+h2 {
+  font-size: 32px;
+}
+.menu1 {
+  color: red;
+}
+.menu2 {
+  color: rgb(63, 132, 135);
+}
+.menu3 {
+  color: blueviolet;
+}
+.box {
+  width: 50px;
+  height: 50px;
+  background-color: aqua;
+  border: 2px solid red;
+}
+.box1 {
+  background-color: chartreuse;
+  border-radius: 50%;
+}
+/* 아이디 선택자 */
+#title {
+  font-size: 48px;
+}
+#title2 {
+  color: brown;
+  font-size: 24px;
+  font-weight: bold;
+}
+/* 여러 선택자 한번에 */
+h4,
+.smallTitle,
+.desc {
+  font-size: 14px;
+  color: red;
+  background-color: aqua;
+  font-weight: 600;
+}
